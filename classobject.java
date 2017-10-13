@@ -5,7 +5,7 @@ public class Class {       //class declaration
      }
    
     public static void main(String[] args) {
-        Class object = new Classobj();//declaring an object for class Class
+        Class object = new Class();//declaring an object for class Class
         int x=5;
         int y = object.doublee(x);//calling a method of class Class  
         System.out.println(y);
