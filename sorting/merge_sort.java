@@ -64,7 +64,7 @@ public class merge_sort
 		for (i = 0; i < size; ++i) {
 			arr[i] = Sc.nextInt();
 		}
-		sorting(arr);
+		sorting(arr, 0, size - 1);
 		System.out.println("Sorted array :-");
 		for (i = 0; i < size; ++i) {
 			System.out.print(arr[i] + " ");
